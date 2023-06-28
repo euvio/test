@@ -1,0 +1,23 @@
+﻿<Window x:Class="CaliburnSimpleContainerDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <GroupBox Header="默认构造">
+            <StackPanel>
+                <WrapPanel Background="SpringGreen">
+                    <Button x:Name="OneSingletonImplementAuto" Click="OneSingletonImplementAuto_OnClick" Margin="5" Padding="5" >1个单例-服务</Button>
+                    <Button x:Name="NSingletonImplementAuto" Click="NSingletonImplementAuto_OnClick" Margin="5" Padding="5" >N个单例-服务</Button>
+                    <Button x:Name="OneSingletonInterfaceAuto" Click="OneSingletonInterfaceAuto_OnClick" Margin="5" Padding="5" >1个单例-接口</Button>
+                    <Button x:Name="NSingletonInterfaceAuto" Click="NSingletonInterfaceAuto_OnClick" Margin="5" Padding="5" >N个单例-接口</Button>
+                </WrapPanel>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="指定构造">
+
+        </GroupBox>
+    </StackPanel>
+</Window>

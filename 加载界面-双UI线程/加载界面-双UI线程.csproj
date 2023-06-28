@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>加载界面_双UI线程</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dlgBkg.png" />
+    <None Remove="Microsoft.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\加载界面\加载界面.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dlgBkg.png" />
+    <Resource Include="Microsoft.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="SplashScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
