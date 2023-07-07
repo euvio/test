@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Caliburn.Micro;
 using System.Windows;
@@ -25,23 +26,22 @@ namespace CaliburnSimpleContainerDemo
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void OneSingletonImplementAuto_OnClick(object sender, RoutedEventArgs e)
         {
-            container.RegisterSingleton(typeof(Bus), null, typeof(Bus));
-            var vehicle = container.GetInstance<Bus>();
-            vehicle.Run();
+        
         }
 
         private void NSingletonImplementAuto_OnClick(object sender, RoutedEventArgs e)
         {
             container.RegisterSingleton(typeof(Bus), "bus1", typeof(Bus));
 
-          
+
 
             //var bus2 = container.GetInstance(typeof(Bus), "bus2") as Bus;
-          
+
             //bus2?.Run();
         }
 
@@ -50,6 +50,8 @@ namespace CaliburnSimpleContainerDemo
             container.RegisterSingleton(typeof(IVehicle), null, typeof(Car));
             container.RegisterSingleton(typeof(IVehicle), null, typeof(Bus));
             container.RegisterSingleton(typeof(IVehicle), null, typeof(Bus));
+
+
         }
 
         private void NSingletonInterfaceAuto_OnClick(object sender, RoutedEventArgs e)

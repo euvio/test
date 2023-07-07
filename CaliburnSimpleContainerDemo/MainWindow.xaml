@@ -8,12 +8,7 @@
     <StackPanel>
         <GroupBox Header="默认构造">
             <StackPanel>
-                <WrapPanel Background="SpringGreen">
-                    <Button x:Name="OneSingletonImplementAuto" Click="OneSingletonImplementAuto_OnClick" Margin="5" Padding="5" >1个单例-服务</Button>
-                    <Button x:Name="NSingletonImplementAuto" Click="NSingletonImplementAuto_OnClick" Margin="5" Padding="5" >N个单例-服务</Button>
-                    <Button x:Name="OneSingletonInterfaceAuto" Click="OneSingletonInterfaceAuto_OnClick" Margin="5" Padding="5" >1个单例-接口</Button>
-                    <Button x:Name="NSingletonInterfaceAuto" Click="NSingletonInterfaceAuto_OnClick" Margin="5" Padding="5" >N个单例-接口</Button>
-                </WrapPanel>
+                <WrapPanel Background="SpringGreen"/>
             </StackPanel>
         </GroupBox>
         <GroupBox Header="指定构造">

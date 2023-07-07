@@ -35,5 +35,12 @@ namespace CaliburnSimpleContainerDemo
         {
             Console.WriteLine($"{GetHashCode()} + bus + {_model}");
         }
+
+        public override string ToString()
+        {
+            return $"Model: {_model} \r\n" +
+                   $"Hashcode: {GetHashCode()} \r\n" +
+                   $"TypeName: {this.GetType().Name}";
+        }
     }
 }

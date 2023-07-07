@@ -9,5 +9,7 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <Grid />
+    <Grid>
+        <Button Content="按钮事件" Width="200" Height="50" Click="ButtonBase_OnClick"></Button>
+    </Grid>
 </Window>

@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Xml.Linq;
 using Caliburn.Micro;
 
 namespace CaliburnSimpleContainerDemo
@@ -17,24 +18,25 @@ namespace CaliburnSimpleContainerDemo
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            base.OnStartup(e);
             SimpleContainer container = new SimpleContainer();
-            container.Instance(container);
-            container.Singleton<IVehicle, Bus>();
+            // 注册单例
+            container.RegisterSingleton(typeof(IVehicle), null, typeof(Bus));
+            container.RegisterSingleton(typeof(IVehicle), null, typeof(Bus));
 
+            var bus = container.GetAllInstances(typeof(IVehicle), null);
 
-            Console.WriteLine(container.GetInstance<IVehicle>().GetHashCode());
-            Console.WriteLine(container.GetInstance<IVehicle>().GetHashCode());
-            Console.WriteLine(container.GetInstance<IVehicle>().GetHashCode());
-        }
+            Console.WriteLine(bus);
 
-        class Target
-        {
-            public Target(IVehicle vehicles)
+            foreach (var bu in bus)
             {
-                
+                Console.WriteLine(bu);
             }
+
+            //container.RegisterInstance(typeof(IVehicle), null, new Bus("BMW"));
+            //container.RegisterPerRequest(typeof(IVehicle), null, typeof(Bus));
+
+            //container.RegisterSingleton(typeof(Bus), null, typeof(Bus));
+
         }
-       
     }
 }
