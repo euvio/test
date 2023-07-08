@@ -91,7 +91,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "万能委托", "万能委�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "获取用户最后一次输入的时间", "获取用户最后一次输入的时间\获取用户最后一次输入的时间.csproj", "{6140949C-9AF3-4DFD-A52D-87532E72B665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "学习Prism", "学习Prism\学习Prism.csproj", "{7B54BB4E-B36C-4F70-B792-C11E2526EF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "学习Prism", "学习Prism\学习Prism.csproj", "{7B54BB4E-B36C-4F70-B792-C11E2526EF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "属性通知核心", "属性通知核心\属性通知核心.csproj", "{DD3CCEEB-853D-41DB-8BE9-60A3F642E11A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,10 @@ Global
 		{7B54BB4E-B36C-4F70-B792-C11E2526EF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B54BB4E-B36C-4F70-B792-C11E2526EF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B54BB4E-B36C-4F70-B792-C11E2526EF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3CCEEB-853D-41DB-8BE9-60A3F642E11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3CCEEB-853D-41DB-8BE9-60A3F642E11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3CCEEB-853D-41DB-8BE9-60A3F642E11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3CCEEB-853D-41DB-8BE9-60A3F642E11A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
