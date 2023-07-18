@@ -1,0 +1,63 @@
+﻿<Window
+    x:Class="折叠板.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:折叠板="clr-namespace:折叠板"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    d:DataContext="{d:DesignInstance 折叠板:MainViewModel}"
+    DataContext="{DynamicResource ViewModel}"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <x:Array x:Key="designTree" Type="{x:Type 折叠板:TreeNode}">
+            <折叠板:TreeNode Name="1">
+                <折叠板:TreeNode.Children>
+                    <x:Array Type="{x:Type 折叠板:TreeNode}">
+                        <折叠板:TreeNode Name="2" />
+                    </x:Array>
+                </折叠板:TreeNode.Children>
+            </折叠板:TreeNode>
+        </x:Array>
+        <折叠板:MainViewModel x:Key="ViewModel" />
+    </Window.Resources>
+    <Grid>
+        <TreeView
+            Width="200"
+            Height="300"
+            d:ItemsSource="{DynamicResource designTree}"
+            ItemsSource="{Binding Tree}">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                    <TextBlock VerticalAlignment="Center" Text="{Binding Name}" />
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="True" />
+                </Style>
+            </TreeView.ItemContainerStyle>
+        </TreeView>
+
+        <!--<DataGrid AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn></DataGridTextColumn>
+                <DataGridCheckBoxColumn></DataGridCheckBoxColumn>
+                <DataGridComboBoxColumn></DataGridComboBoxColumn>
+                <DataGridHyperlinkColumn></DataGridHyperlinkColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Binding="Name" Header="名称" />
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>-->
+    </Grid>
+</Window>
