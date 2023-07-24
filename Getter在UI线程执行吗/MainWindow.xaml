@@ -1,16 +1,13 @@
-﻿<Window x:Class="学习Prism.MainWindow"
+﻿<Window x:Class="Getter在UI线程执行吗.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:学习Prism"
+        xmlns:local="clr-namespace:Getter在UI线程执行吗"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <ListBox x:Name="ListBox" ItemsSource="{Binding StudentsView}" SelectionChanged="Selector_OnSelectionChanged">
-
-        </ListBox>
-
-        <Button Content="dsds" Click="ButtonBase_OnClick"/>
+        <TextBlock x:Name="TextBlock"/>
+        <Button Content="Click Me" Click="ButtonBase_OnClick"/>
     </StackPanel>
 </Window>
