@@ -107,6 +107,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Getter在UI线程执行吗"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据采集模型", "数据采集模型\数据采集模型.csproj", "{E26A1FD3-7730-4068-B757-D5F70C941404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -281,6 +283,10 @@ Global
 		{E26A1FD3-7730-4068-B757-D5F70C941404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E26A1FD3-7730-4068-B757-D5F70C941404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E26A1FD3-7730-4068-B757-D5F70C941404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -308,6 +314,7 @@ Global
 		{7765E7D1-6952-467A-BB96-73181E57F246} = {64371F59-85F3-4B5B-B943-07E0A4FF63D4}
 		{53B2639D-6DA5-4BAE-9699-EA6884A5884A} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{E26A1FD3-7730-4068-B757-D5F70C941404} = {83208DA8-1296-4414-A946-AB88E7596FF5}
+		{48BC8FF1-12D4-435C-B60E-3B063463B844} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E8A92E6-E049-4595-8AC8-6B0E21CA828F}
