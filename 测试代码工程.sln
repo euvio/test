@@ -29,8 +29,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caliburn.Micro.Tutorial.Wpf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaliburnSimpleContainerDemo", "CaliburnSimpleContainerDemo\CaliburnSimpleContainerDemo.csproj", "{473330E0-459F-4E64-A0C3-BD8882CC2CDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf基础功能测试", "Wpf基础功能测试\Wpf基础功能测试.csproj", "{66B34AD3-9D76-43CC-B761-06946F77D1FC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "加载界面", "加载界面\加载界面.csproj", "{ED091CD0-FD1C-4C38-836E-D6590F616BBA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "加载界面-双UI线程", "加载界面-双UI线程\加载界面-双UI线程.csproj", "{96E51603-83F0-45D4-8FA1-F122B8D74FA3}"
@@ -58,8 +56,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModbusLab", "ModbusLab", "{139BE30E-D801-4E4D-A1DD-B52EF8654955}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRC校验", "CRC校验\CRC校验.csproj", "{FC611C32-3881-4240-AE1A-D7B665909A1D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{028D0B3B-AB62-4107-ACE3-FFEA91CA6E59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "串口", "串口", "{BF52BE5D-1768-42BE-8A00-BB7422D49AA1}"
 EndProject
@@ -97,9 +93,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "事件转命令", "事件�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{83208DA8-1296-4414-A946-AB88E7596FF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据采集模型", "数据采集模型\数据采集模型.csproj", "{E26A1FD3-7730-4068-B757-D5F70C941404}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,10 +153,6 @@ Global
 		{473330E0-459F-4E64-A0C3-BD8882CC2CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473330E0-459F-4E64-A0C3-BD8882CC2CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473330E0-459F-4E64-A0C3-BD8882CC2CDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{66B34AD3-9D76-43CC-B761-06946F77D1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66B34AD3-9D76-43CC-B761-06946F77D1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66B34AD3-9D76-43CC-B761-06946F77D1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66B34AD3-9D76-43CC-B761-06946F77D1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ED091CD0-FD1C-4C38-836E-D6590F616BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ED091CD0-FD1C-4C38-836E-D6590F616BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED091CD0-FD1C-4C38-836E-D6590F616BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -259,10 +249,6 @@ Global
 		{5F2F3C64-2226-45AE-BDF7-54921402109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F2F3C64-2226-45AE-BDF7-54921402109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F2F3C64-2226-45AE-BDF7-54921402109D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E26A1FD3-7730-4068-B757-D5F70C941404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E26A1FD3-7730-4068-B757-D5F70C941404}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E26A1FD3-7730-4068-B757-D5F70C941404}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E26A1FD3-7730-4068-B757-D5F70C941404}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -290,7 +276,6 @@ Global
 		{9CC49DC4-3AFA-4CEB-8CED-E287F136181F} = {407B2DF3-3AF1-40F4-A814-6B50D389B920}
 		{A083DADA-30F4-4363-AA4A-6B01B274B4A9} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{5F2F3C64-2226-45AE-BDF7-54921402109D} = {83208DA8-1296-4414-A946-AB88E7596FF5}
-		{E26A1FD3-7730-4068-B757-D5F70C941404} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{48BC8FF1-12D4-435C-B60E-3B063463B844} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
