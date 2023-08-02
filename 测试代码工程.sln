@@ -93,7 +93,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "事件转命令", "事件�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{83208DA8-1296-4414-A946-AB88E7596FF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "列表控件", "列表控件", "{B95ED14F-6774-4325-ADB7-A569B79FC0ED}"
 EndProject
