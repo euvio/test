@@ -93,11 +93,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "事件转命令", "事件�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{83208DA8-1296-4414-A946-AB88E7596FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "列表控件", "列表控件", "{B95ED14F-6774-4325-ADB7-A569B79FC0ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据模板选择器", "数据模板选择器\数据模板选择器.csproj", "{1560D4F8-BA55-4250-862A-C47F4332E1CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据模板选择器", "数据模板选择器\数据模板选择器.csproj", "{1560D4F8-BA55-4250-862A-C47F4332E1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "可通知的集合", "可通知的集合\可通知的集合.csproj", "{F268D815-7212-48A8-93CE-10CF16F770BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,14 +253,14 @@ Global
 		{5F2F3C64-2226-45AE-BDF7-54921402109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F2F3C64-2226-45AE-BDF7-54921402109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F2F3C64-2226-45AE-BDF7-54921402109D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F268D815-7212-48A8-93CE-10CF16F770BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F268D815-7212-48A8-93CE-10CF16F770BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F268D815-7212-48A8-93CE-10CF16F770BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F268D815-7212-48A8-93CE-10CF16F770BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -284,9 +284,9 @@ Global
 		{9CC49DC4-3AFA-4CEB-8CED-E287F136181F} = {407B2DF3-3AF1-40F4-A814-6B50D389B920}
 		{A083DADA-30F4-4363-AA4A-6B01B274B4A9} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{5F2F3C64-2226-45AE-BDF7-54921402109D} = {83208DA8-1296-4414-A946-AB88E7596FF5}
-		{48BC8FF1-12D4-435C-B60E-3B063463B844} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{B95ED14F-6774-4325-ADB7-A569B79FC0ED} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{1560D4F8-BA55-4250-862A-C47F4332E1CC} = {B95ED14F-6774-4325-ADB7-A569B79FC0ED}
+		{F268D815-7212-48A8-93CE-10CF16F770BF} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E8A92E6-E049-4595-8AC8-6B0E21CA828F}
