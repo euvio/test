@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace System.ComponentModel
 {
@@ -18,22 +14,19 @@ namespace System.ComponentModel
     {
         public ObservableCollectionEx()
         {
-
         }
 
         public ObservableCollectionEx(List<T> list) : this(list as IEnumerable<T>)
         {
-
         }
 
-        public ObservableCollectionEx(IEnumerable<T> items):base(items)
+        public ObservableCollectionEx(IEnumerable<T> items) : base(items)
         {
             foreach (var item in items)
             {
-              RegisterPropertyChanged(item);
+                RegisterPropertyChanged(item);
             }
         }
-
 
         public new void Add(T item)
         {
@@ -47,7 +40,6 @@ namespace System.ComponentModel
             RegisterPropertyChanged(item);
         }
 
-
         public new void Remove(T item)
         {
             base.Remove(item);
@@ -60,7 +52,6 @@ namespace System.ComponentModel
 
             UnregisterPropertyChanged(this[index]);
         }
-
 
         private void Inpc_PropertyChanged(object? sender, PropertyChangedEventArgs e)
         {
