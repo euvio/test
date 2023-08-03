@@ -82,4 +82,10 @@ namespace 视图增删一行后台集合是否增删
             return Name.GetHashCode();
         }
     }
+
+
+    public class Repository
+    {
+
+    }
 }
