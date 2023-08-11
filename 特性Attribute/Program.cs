@@ -1,18 +1,22 @@
 ﻿using System.ComponentModel;
 using System.Data.SqlTypes;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace 特性Attribute
 {
     internal class Program
     {
+
+        private void GetSomething()
+        {
+
+        }
+
         static void Main(string[] args)
         {
-            MyClass2 myclass2 = new MyClass2();
-            var info = typeof(MyClass2).GetMethod("Method");
-           var attributes = Attribute.GetCustomAttributes(info, typeof(MyAttribute),true);
-           ;
-           Console.Read();
+            var a = typeof(Program).GetMethods(BindingFlags.NonPublic);
+          
         }
     }
 
