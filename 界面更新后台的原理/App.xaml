@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="视图增删一行后台集合是否增删.App"
+    x:Class="界面更新后台的原理.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:视图增删一行后台集合是否增删"
+    xmlns:local="clr-namespace:界面更新后台的原理"
     StartupUri="MainWindow.xaml">
     <Application.Resources />
 </Application>

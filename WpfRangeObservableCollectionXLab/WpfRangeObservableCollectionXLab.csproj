@@ -7,4 +7,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="WpfObservableRangeCollection" Version="2.2.0" />
+  </ItemGroup>
+
 </Project>

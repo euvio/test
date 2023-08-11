@@ -93,11 +93,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "事件转命令", "事件�
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{83208DA8-1296-4414-A946-AB88E7596FF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "视图增删一行后台集合是否增删", "视图增删一行后台集合是否增删\视图增删一行后台集合是否增删.csproj", "{48BC8FF1-12D4-435C-B60E-3B063463B844}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "列表控件", "列表控件", "{B95ED14F-6774-4325-ADB7-A569B79FC0ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数据模板选择器", "数据模板选择器\数据模板选择器.csproj", "{1560D4F8-BA55-4250-862A-C47F4332E1CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数据模板选择器", "数据模板选择器\数据模板选择器.csproj", "{1560D4F8-BA55-4250-862A-C47F4332E1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步方法", "异步方法\异步方法.csproj", "{BE22E3A8-BFB3-4018-93B3-3D4080E6C4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncRootDemo", "SyncRootDemo\SyncRootDemo.csproj", "{38201435-B0EB-4773-A345-943B40BF2B9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{393B71E7-9D6B-42E7-A3E7-3059F922480D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "界面更新后台的原理", "界面更新后台的原理\界面更新后台的原理.csproj", "{828232E9-26FE-4E01-91E7-8BC6500AEDFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfRangeObservableCollectionXLab", "WpfRangeObservableCollectionXLab\WpfRangeObservableCollectionXLab.csproj", "{4F86E818-44BA-41FD-8B7B-A88CC52223DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "两个窗口之间的关系", "两个窗口之间的关系\两个窗口之间的关系.csproj", "{D51923F4-E056-40B6-8237-EFCEDC5B76CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridLab", "DataGridLab\DataGridLab.csproj", "{320C22F5-637E-4688-AFD3-6FDD873C9FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "日期控件WPF.Toolkit", "日期控件WPF.Toolkit\日期控件WPF.Toolkit.csproj", "{BF6E6307-6F0E-4C3E-B54B-45B696B7298F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -257,10 +273,42 @@ Global
 		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48BC8FF1-12D4-435C-B60E-3B063463B844}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6C1A19A-3EF3-471A-A88A-B8338C4A9FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6C1A19A-3EF3-471A-A88A-B8338C4A9FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6C1A19A-3EF3-471A-A88A-B8338C4A9FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6C1A19A-3EF3-471A-A88A-B8338C4A9FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1560D4F8-BA55-4250-862A-C47F4332E1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE22E3A8-BFB3-4018-93B3-3D4080E6C4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE22E3A8-BFB3-4018-93B3-3D4080E6C4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE22E3A8-BFB3-4018-93B3-3D4080E6C4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE22E3A8-BFB3-4018-93B3-3D4080E6C4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38201435-B0EB-4773-A345-943B40BF2B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38201435-B0EB-4773-A345-943B40BF2B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38201435-B0EB-4773-A345-943B40BF2B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38201435-B0EB-4773-A345-943B40BF2B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393B71E7-9D6B-42E7-A3E7-3059F922480D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393B71E7-9D6B-42E7-A3E7-3059F922480D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393B71E7-9D6B-42E7-A3E7-3059F922480D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393B71E7-9D6B-42E7-A3E7-3059F922480D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828232E9-26FE-4E01-91E7-8BC6500AEDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828232E9-26FE-4E01-91E7-8BC6500AEDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828232E9-26FE-4E01-91E7-8BC6500AEDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828232E9-26FE-4E01-91E7-8BC6500AEDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F86E818-44BA-41FD-8B7B-A88CC52223DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F86E818-44BA-41FD-8B7B-A88CC52223DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F86E818-44BA-41FD-8B7B-A88CC52223DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F86E818-44BA-41FD-8B7B-A88CC52223DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51923F4-E056-40B6-8237-EFCEDC5B76CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51923F4-E056-40B6-8237-EFCEDC5B76CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51923F4-E056-40B6-8237-EFCEDC5B76CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51923F4-E056-40B6-8237-EFCEDC5B76CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320C22F5-637E-4688-AFD3-6FDD873C9FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320C22F5-637E-4688-AFD3-6FDD873C9FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320C22F5-637E-4688-AFD3-6FDD873C9FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320C22F5-637E-4688-AFD3-6FDD873C9FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6E6307-6F0E-4C3E-B54B-45B696B7298F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6E6307-6F0E-4C3E-B54B-45B696B7298F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6E6307-6F0E-4C3E-B54B-45B696B7298F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6E6307-6F0E-4C3E-B54B-45B696B7298F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -285,8 +333,8 @@ Global
 		{A083DADA-30F4-4363-AA4A-6B01B274B4A9} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{5F2F3C64-2226-45AE-BDF7-54921402109D} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{48BC8FF1-12D4-435C-B60E-3B063463B844} = {83208DA8-1296-4414-A946-AB88E7596FF5}
-		{F6C1A19A-3EF3-471A-A88A-B8338C4A9FAA} = {83208DA8-1296-4414-A946-AB88E7596FF5}
 		{1560D4F8-BA55-4250-862A-C47F4332E1CC} = {B95ED14F-6774-4325-ADB7-A569B79FC0ED}
+		{320C22F5-637E-4688-AFD3-6FDD873C9FFA} = {B95ED14F-6774-4325-ADB7-A569B79FC0ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E8A92E6-E049-4595-8AC8-6B0E21CA828F}

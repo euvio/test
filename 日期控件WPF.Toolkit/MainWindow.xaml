@@ -1,0 +1,68 @@
+﻿<Window
+    x:Class="日期控件WPF.Toolkit.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:local="clr-namespace:日期控件WPF.Toolkit"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:xceed="http://schemas.xceed.com/wpf/xaml/toolkit"
+    x:Name="Window"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <xceed:BusyIndicator IsBusy="True">
+        <StackPanel   Mouse.PreviewMouseDown="Mouse_OnPreviewMouseDown" Mouse.MouseUp="Mouse_OnMouseUp" Mouse.MouseDown="Mouse_OnMouseDown" Mouse.PreviewMouseUp="Mouse_OnPreviewMouseUp">
+            <xceed:CheckComboBox
+            MouseDown="CheckComboBox_OnMouseDown"
+            Mouse.MouseDown="C1heckComboBox_OnMouseDown"
+            PreviewMouseDown="CheckComboBox_OnPreviewMouseDown"
+            Mouse.PreviewMouseDown="C2heckComboBox_OnPreviewMouseDown"
+            Text="日志"
+            ItemSelectionChanged="CheckComboBox_OnItemSelectionChanged"
+            x:Name="CheckComboBox"
+            ItemsSource="{Binding Products}"
+            Delimiter=" | "
+            IsSelectAllActive="False"
+            MaxDropDownHeight="260"
+            SelectAllContent="ALL"
+            ValueMemberPath="Model" >
+                <xceed:CheckComboBox.Resources>
+                    <Style TargetType="xceed:ButtonChrome">
+                        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="CornerRadius" Value="0"></Setter>
+                        <Setter Property="Foreground" Value="Red"></Setter>
+
+                    </Style>
+                </xceed:CheckComboBox.Resources>
+                <xceed:CheckComboBox.ItemContainerStyle>
+                    <Style TargetType="xceed:SelectorItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <Grid>
+                                        <ContentPresenter Content="{Binding Path=Content, RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=ContentControl}}"  Height="20" Width="100"></ContentPresenter>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </xceed:CheckComboBox.ItemContainerStyle>
+
+                <xceed:CheckComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <ToggleButton  Content="{Binding Name}" Background="CornflowerBlue"></ToggleButton>
+                    </DataTemplate>
+                </xceed:CheckComboBox.ItemTemplate>
+            </xceed:CheckComboBox>
+
+            <Button
+            x:Name="Button"
+            Width="120"
+            Height="120"
+            Click="Button_OnClick" />
+        </StackPanel>
+    </xceed:BusyIndicator>
+</Window>
