@@ -6,11 +6,5 @@
         xmlns:local="clr-namespace:学习Prism"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
-        <ListBox x:Name="ListBox" ItemsSource="{Binding StudentsView}" SelectionChanged="Selector_OnSelectionChanged">
 
-        </ListBox>
-
-        <Button Content="dsds" Click="ButtonBase_OnClick"/>
-    </StackPanel>
 </Window>
